@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register!</title>
+<body>
+<header>
+<h1>Register here!
+</h1>	
+</header>	
+<!-- Use GET, not POST -->
+<form method="GET">
+First Name: <input type="text" name="firstname"><br>
+Last Name: <input type="text" name="lastname"><br>
+Email: <input type="email" name="email" required><br>
+Set A Password: <input type="password" name="password" min="5"><br>
+Birth Date: <input type="date" name="birthdate" required><br>
+Gender: <br>
+<input type="radio" name="gender">Male<br>
+<input type="radio" name="gender">Female<br>
+<input type="radio" name="gender">Other<br>
+<input type="checkbox" name="firstname" required>I am not a robot.<br>
+Please select the words with the letter M. <br>
+<select>
+<option value="Parking">Parking</option>
+<option value="Wilderness">Wilderness</option>
+<option value="Worldwide">Worldwide</option>
+<option value="Mailbox" required>Mailbox</option>
+<option value="Popular">Popular</option>
+</select><br>
+
+<input type="submit" value="Register">
+<input type="reset">
+</form><br>
+<a href="index.html">Back To Home Page</a>
+
+</body>		
+</head>
+</html>

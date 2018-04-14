@@ -1,0 +1,13 @@
+h1 {
+border:dashed red;
+color:red;
+}
+li {
+color:black;
+}
+.boxmodel {
+	border:10px solid lime;
+	display:inline-block;
+	padding: 1px;
+	margin:20px;
+}
